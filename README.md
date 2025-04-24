@@ -1,28 +1,36 @@
 # Recuvar_kali_linux
+#if your system hasbeen crushed ,you can use this cmd to recover your linux system
+----------------------------------------------------------------------------------
 
 
-
-press ctrl + alt + f2
-
+     press ctrl + alt + f2
+-----------------------
 
 give username and password
+--------------------------------
+     sudo apt-get update
+--------------------------------
+     sudo apt-get upgrade
+--------------------------------
+    reset kali linux to factory setting
+--------------------------------
 
-sudo apt-get update
+    sudo apt-get dist upgrade
+--------------------------------
 
-sudo apt-get upgrade
+    sudo apt-get install dconf-editor -y
 
-reset kali linux to factory setting
+--------------------------------
+    dconf reset -f/
+--------------------------------
 
-sudo apt-get dist upgrade
+    all changes are reverted back
+--------------------------------
 
-sudo apt-get install dconf-editor -y
+    exit
+--------------------------------
 
-dconf reset -f/
-
-all changes are reverted back
-
-exit
-
-turn off the power and turn it on agin
+    turn off the power and turn it on agin
+--------------------------------
 
 
