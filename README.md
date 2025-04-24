@@ -2,8 +2,7 @@
 
 
 
-press ctrl + alt+
- + f2
+press ctrl + alt + f2
 
 
 give username and password
